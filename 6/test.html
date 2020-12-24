@@ -4,32 +4,71 @@
 		<title>Таблица</title>
 	</head>
 	<body>
-		<table border="5">
+		<!--<table border="1">
 			<thead>
 				<tr>
-					<th>Заголовок1</th>
-					<th>Заголовок2</th>
+					<th>Заголовок</th>
+					<th>Заголовок</th>
+					<th>Заголовок</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td colspan="2">Ячейка 1</td>
-					<td>Ячейка 2</td>
-					<td>Ячейка 3</td>
-					<td>Ячейка 4</td>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
 				</tr>
 				<tr>
-					<td colspan="2">Ячейка 1</td>
-					<td>Ячейка 2</td>
-					<td>Ячейка 3</td>
-					<td>Ячейка 4</td>
+					<td>1</td>
+					<td colspan="2">1</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>1</td>
+					<td>3</td>
 				</tr>
 			</tbody>
 			<tfoot>
 				<tr>
-					<td colspan="5">TFOOT 1</td>
+					<td colspan="3">footer</td>
 				</tr>
 			</tfoot>
+		</table>-->
+
+		<table border="1">
+			<thead>
+				<tr>
+					<th></th>
+					<th colspan="2">
+						<table border="1">
+							<tbody>
+								<tr>
+									<td colspan="2">Average</td>
+								</tr>
+								<tr>
+									<td>height</td>
+									<td>weight</td>
+								</tr>
+							</tbody>
+						</table>
+					</th>
+					<th>Red</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Male</th>
+					<td>1.9</td>
+					<td>2,0</td>
+					<td>40%</td>
+				</tr>
+				<tr>
+					<th>Female</th>
+					<td>1.9</td>
+					<td>2,0</td>
+					<td>40%</td>
+				</tr>
+			</tbody>
 		</table>
 	</body>
 </html>
@@ -43,3 +82,5 @@
 <!-- tr - строка -->
 <!-- th - ячейка с заголовком -->
 <!-- td - ячейка -->
+
+<!-- table + border, td + colspan -->
