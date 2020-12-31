@@ -4,31 +4,83 @@
 		<title>Формы</title>
 	</head>
 	<body>
+		<!--
 		<form>
-			<!-- Вам есть 18 лет? <input type="checkbox" />
-			Подпишитесь на рассылку? <input type="checkbox" />
+			<input required type="text" />
 			<br />
-			Мужской: <input type="radio" name="radio_input" />
-			Женский: <input type="radio" name="radio_input" />
-			-->
-			<!-- <input type="text" placeholder="Ваше имя" />
-			<textarea placeholder="Комментарий">Ирина, </textarea>
-			-->
-			<!--<label>
-				text
-				<textarea></textarea>
-			</label>
-			-->
-			<!-- <button>Кнопка</button> -->
+			<textarea required></textarea>
+			<br />
+			<button>Название</button>
 			<select>
 				<option>Апельсин</option>
-				<option>Мандарин</option>
 				<option selected>Яблоко</option>
+				<option>Мандарин</option>
 			</select>
+		</form> -->
+
+		<!--
+		<form>
+			<input type="search" />
+			<input type="tel" pattern="2[0-9]{3}-[0-9]{3}" />
+			<input type="url" pattern="https://.*" />
+
+			<input type="text" placeholder="Введите имя" />
+
+			Вам есть 18 лет?
+			<input type="checkbox" />
+
+			<br />
+
+			Подписать на рассылку?
+			<input type="checkbox" />
+
+			<br />
+			<br />
+			<br />
+
+			Выберите пол:
+			<br />
+			Мужской:
+			<input type="radio" name="radio_input" />
+			<br />
+			Женский:
+			<input type="radio" name="radio_input" />
+			<br />
+			Не знаю:
+			<input type="radio" name="radio_input" />
+		</form> -->
+
+		<form>
+			<label>
+				Теккст
+				<textarea></textarea>
+			</label>
+			
 		</form>
 	</body>
 </html>
 
 <!-- br -->
-<!-- form, input, textarea, button, label -->
+<!-- form, textarea, button, input, label -->
 <!-- select, option -->
+<!-- Атрибуты: selected, required, placeholder, name -->
+
+<!--
+	Используются часто:
+	input type: text, password, checkbox,radio 
+	, file, number, email, date
+-->
+
+<!--
+	Используются редко:
+	input type: range, color, datetime-local,
+	search, tel, url, time, month, week
+-->
+
+<!-- tel: 2xxx-xxx -->
+<!-- pattern="2[0-9]{3}-[0-9]{3}" -->
+
+<!-- url: pattern="https://.*" -->
+
+
+
