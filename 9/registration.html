@@ -3,37 +3,45 @@
 	<head>
 		<title>Регистрация</title>
 		<meta charset="utf-8" />
+		<link rel="icon" href="ico/registration.ico" />
 	</head>
 	<body>
 		<a href="main.html">Главная</a>
 		<a href="photos.html">Фото</a>
 		<span>Регистрация</span>
 
-		<div>
+		<br />
+
+		<form>
 			<label>
 				Имя:
-				<input type="text" placeholder="Введите ваше имя" />
+				<input type="text" />
 			</label>
 
-			<p>Ваш пол:</p>
+			<br />
+
+			Ваш пол:
+			<br />
 			<label>
-				Мужской
-				<input type="radio" name="input_radio" />
+				Мужской:
+				<input type="radio" name="radio_input" />
 			</label>
 			<br />
 			<label>
-				Женский
-				<input type="radio" name="input_radio" />
+				Женский:
+				<input type="radio" name="radio_input" />
 			</label>
+
 			<br />
 
 			<label>
-				Подписаться на рассылку
+				Подписаться на рассылку:
 				<input type="checkbox" />
 			</label>
+
 			<br />
 
 			<button>Отправить</button>
-		</div>
+		</form>
 	</body>
 </html>
