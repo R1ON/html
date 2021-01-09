@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>Audio, video, picture</title>
+		<title>Audio, video, source</title>
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		
+		<audio controls>
+			<source src="music.mp3" type="audio/mp3" />
+		</audio>
+		<video controls width="200">
+			<source src="video.mp4" type="video/mp4" />
+			<source src="video.webm" type="video/webm" />
+		</video>
+		<picture>
+			<source srcset="hippo.svg" />
+			<img src="hippo.png" width="200" />
+		</picture>
 	</body>
 </html>
 
-<!-- svg, audio, video, picture -->
+<!-- svg, (png | jpg | jpeg), audio, video, source, picture -->
