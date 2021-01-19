@@ -1,0 +1,53 @@
+/*.second_span {
+	color: green;
+}
+
+.third_span {
+	color: blue;
+}
+
+.element {
+	background: orange;
+}*/
+
+/* # - id */
+/* . - class */
+
+/* ------------------------------- */
+
+/* -- RGB -- от 0 до 255
+.first_span {
+	background: rgb(255, 0, 0);
+}*/
+
+/* -- RGBA -- A от 0 до 1
+.first_span {
+	background: rgba(255, 0, 0, .5);
+}*/
+
+/* -- HEX -- от 0 до F
+.first_span {
+	background: #F00;
+}*/
+
+/*
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+0 1 2 3 4 5 6 7 8 9 A  B  C  D  E  F
+*/
+
+.first_span {
+	/* background: #F00; */
+	/* background: #FF0000; */
+	background: #F351fd12;
+}
+
+
+
+
+
+
+
+
+
+
+
