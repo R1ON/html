@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+div {
+	font-style: italic; /* Наклон */
+	font-family: Bold; /* Какой шрифт подключаем */
+	font-size: 32px; /* Размер шрифта */
+	font-weight: 100; /* Толщина шрифта */
+}
+
+/* "woff", "woff2", "truetype", "embedded-opentype" */
+
+@font-face {
+	font-family: Light;
+	src: url('Roboto/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Bold;
+	src: url('Roboto/Roboto-Bold.ttf') format('truetype');
+}
