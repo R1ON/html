@@ -6,7 +6,7 @@ body {
 
 div {
 	font-style: italic; /* Наклон */
-	font-family: Bold; /* Какой шрифт подключаем */
+	font-family: Bold, Arial, Helvetica, sans-serif; /* Какой шрифт подключаем */
 	font-size: 32px; /* Размер шрифта */
 	font-weight: 100; /* Толщина шрифта */
 }
