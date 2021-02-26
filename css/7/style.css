@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main {
+	background: #bbb;
+	width: 100%;
+	height: 500px;
+}.main div {
+	padding-top: 5px;
+	width: 100px;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}.child_1 {
+	background: #660000;
+}.child_2 {
+	background: #990066;
+}.child_3 {
+	background: #333366;
+}.child_4 {
+	background: #009999;
+}.child_5 {
+	background: #009933;
+}
+
+/* Простые */
+/* justify-content:
+     flex-start/flex-end/center/space-between/space-around
+*/
+/* align-items: flex-start/flex-end/center */
+/* align-self: flex-start/flex-end/center */
+/* flex-direction: row/row-reverse/column/column-reverse */
+/* flex-wrap: wrap/nowrap/wrap-reverse */
+
+
+/* Сложные */
+/* align-content:
+	 flex-start/flex-end/center/space-between/spase-around
+ */
+/* order: 1/2/3/... */
+/* flex-grow: 1/2/3.. */
+/* flex-shrink: 1/2/3... */
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+.child_2 {
+	align-self: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
