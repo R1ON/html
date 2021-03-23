@@ -1,0 +1,30 @@
+<svg width="61" height="62" viewBox="0 0 61 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path opacity="0.5" d="M30.4448 9.08602V26.3313L45.409 17.6909V0.445312L30.4448 9.08602Z" fill="#13A049"/>
+<path opacity="0.5" d="M30.4449 9.08602L15.481 0.445312V17.7267L30.4449 26.3674V9.08602Z" fill="#A2CC39"/>
+<path opacity="0.9" d="M45.409 0.445312L30.4449 9.08602L15.481 0.445312L0.516846 9.08602L30.4449 26.3674L60.3551 9.08602L45.409 0.445312Z" fill="url(#paint0_linear)"/>
+<path d="M30.4449 26.3673L0.516846 9.08594V26.3673L15.481 35.008V52.2716L30.4449 60.9123L45.409 52.2716V35.008L60.3551 26.3673V9.08594L30.4449 26.3673Z" fill="url(#paint1_linear)"/>
+<path d="M30.4448 26.3673V60.9123L45.409 52.2716V35.008L60.355 26.3673V9.08594L30.4448 26.3673Z" fill="url(#paint2_linear)"/>
+<path opacity="0.05" d="M30.4448 43.6309V60.9123L45.409 52.2716L30.4448 43.6309Z" fill="#231F20"/>
+<path opacity="0.1" d="M30.4449 60.9484V43.667L15.481 52.3077L30.4449 60.9484Z" fill="#231F20"/>
+<path opacity="0.05" d="M15.481 17.7266L0.516846 26.3673L15.481 35.008L30.4449 26.3673L15.481 17.7266Z" fill="#231F20"/>
+<path opacity="0.05" d="M45.409 17.7266L30.4448 26.3673L45.409 35.008L60.355 26.3673L45.409 17.7266Z" fill="#231F20"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="60.3623" y1="13.404" x2="0.516846" y2="13.404" gradientUnits="userSpaceOnUse">
+<stop stop-color="#37BDA6"/>
+<stop offset="1" stop-color="#8AD3B8"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="60.3623" y1="34.9981" x2="0.516846" y2="34.9981" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#4BB6AD"/>
+<stop offset="1" stop-color="#78BBC1"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="30.4394" y1="34.9981" x2="60.3619" y2="34.9981" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4379A7"/>
+<stop offset="1" stop-color="#7CC9B8"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="60" height="60.7031" fill="white" transform="translate(0.516846 0.445312)"/>
+</clipPath>
+</defs>
+</svg>

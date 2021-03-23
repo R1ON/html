@@ -1,8 +1,5 @@
 body {
 	margin: 0;
-}
-
-.header {
 	background: #181818;
 }
 
@@ -13,78 +10,62 @@ body {
 	height: 120px;
 }
 
-.header__nav {
-	margin-left: 120px;
-	margin-right: 149px;
+.navigation {
+	margin-left: 125px;
+	margin-right: 155px;
 }
 
-.header__nav a {
+.navigation a {
 	font-family: RobotoM, sans-serif;
 	color: white;
 	text-decoration: none;
 	margin-right: 31px;
 }
 
-.header__nav a:hover {
-	color: gray;
+.navigation a:hover {
+	color: #aaa;
 }
 
-
-.header__texts {
+.header__title {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	margin-top: 35px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	color: white;
 }
 
-.header__texts-title,
-.header__texts-subtitle {
+.header-text__title,
+.header-text__subtitle {
 	width: 40%;
-	color: white;
-	margin: 0;
 	text-align: center;
 }
 
-.header__texts-title {
+.header-text__title {
 	font-size: 80px;
 	font-family: RobotoM, sans-serif;
+	margin-bottom: 17px;
 }
 
-.header__texts-subtitle {
+.header-text__subtitle {
 	font-size: 20px;
 	font-family: RobotoL, sans-serif;
-	margin-top: 17px;
 }
 
 .header__buttons {
+	margin-top: 35px;
 	display: flex;
 	justify-content: center;
-	margin-top: 35px;
 }
 
-.header__first-button {
+.header__try-for-free {
 	margin-right: 35px;
 }
 
 .header__image {
+	margin-top: 35px;
 	display: flex;
 	justify-content: center;
-	margin-top: 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

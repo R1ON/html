@@ -1,24 +1,23 @@
 .primary,
 .secondary {
-	color: white;
 	font-family: RobotoM, sans-serif;
 	font-size: 17px;
+	color: white;
 	cursor: pointer;
 }
 
 .primary {
-	padding: 20px 40px;
+	padding: 10px 30px;
 	background: #4452FE;
 	border: none;
-	
 }
 
 .primary:hover {
-	background: #1722ad;
+	background: #111ca7;
 }
 
 .secondary {
-	padding: 19px 40px;
+	padding: 9px 30px;
 	border: 1px solid white;
 	background: transparent;
 }
@@ -27,5 +26,3 @@
 	color: gray;
 	border-color: gray;
 }
-
-
