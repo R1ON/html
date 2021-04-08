@@ -1,0 +1,4 @@
+.block1 + div > span > input[type="text"] {
+	color: white;
+	background: red;
+}
