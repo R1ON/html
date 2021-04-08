@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>CSS_10</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div class="block1">test</div>
+		<div>
+			<span>
+				<input type="password" />
+			</span>
+			<span>
+				<input type="text" />
+			</span>
+			<span><span><span><input type="text" /></span></span></span>
+		</div>
+		<div>
+			<span>test</span>
+		</div>
+	</body>
+</html>
+
+<!-- Ссылки: -->
+<!-- https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Selectors -->
+
+<!--
+	Селекторы:
+		1. Универсальный: *
+		2. По типу элемента: input, span
+		3. По классу: .class_name
+		4. По идентификатору: #id_name
+		5. По атрибуту:
+			5.1. [атрибут="A"]: состоит из A
+			5.2. [атрибут$="A"]: оканчивается на A
+			5.3. [атрибут*="A"]: содержит A
+			5.4. [атрибут^="A"]: начинается с A
+			5.5. [атрибут|="A"]: содержит А в словах с дефисом (-)
+			5.6. [атрибут~="A"]: содержит А в словах с пробелом
+	Комбинаторы:
+		1. Запятая: A, B
+		2. Пробел: A B
+		3. Дочерние: A > B
+		4. Все соседние элементы: A ~ B
+		5. Следующий соседний элемент: A + B
+-->
