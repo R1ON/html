@@ -1,4 +1,4 @@
-.block1 + div > span > input[type="text"] {
+.block1 ~ p > span > a[href^="http:"] {
 	color: white;
 	background: red;
 }
