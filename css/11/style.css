@@ -1,4 +1,30 @@
-.block1 + div > span > input[type="text"] {
+/*.block1 + div > span > input[type="text"] {
 	color: white;
+	background: red;
+}
+
+.test > button:nth-child(even) {
+	background: red;
+}
+
+input:not(:disabled) {
+	background: red;
+}
+
+input::placeholder {
+	color: red;
+	font-size: 70px;
+	font-weight: bold;
+}*/
+
+.test-div::before {
+	content: '';
+
+	display: inline-block;
+
+	width: 5px;
+	height: 5px;
+
+	border-radius: 50%;
 	background: red;
 }

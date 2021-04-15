@@ -12,7 +12,7 @@ body {
 
 .navigation {
 	margin-left: 125px;
-	margin-right: 155px;
+	margin-right: 185px;
 }
 
 .navigation a {
@@ -20,6 +20,10 @@ body {
 	color: white;
 	text-decoration: none;
 	margin-right: 31px;
+}
+
+.navigation a:last-child {
+	margin-right: 0;
 }
 
 .navigation a:hover {

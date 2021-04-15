@@ -36,12 +36,16 @@
 
 .main__image ul {
 	padding: 0;
-    margin-top: -35px;
+	margin-top: 0;
 }
 
 .main__image ul li {
 	list-style-type: none;
 	margin-top: 35px;
+}
+
+.main__image ul li:first-child {
+	margin-top: 0;
 }
 
 .main_li_header {
@@ -109,6 +113,10 @@
 	margin-right: 33px;
 }
 
+.gallery__section img:last-child {
+	margin-right: 0;
+}
+
 .gallery__first_row,
 .gallery__second_row {
 	display: flex;
@@ -123,18 +131,14 @@
 
 /* Partners */
 
-.main__partners {
-
-}
-
-.partners__images {
-	margin-left: 74px;
-}
-
 .partners__images img {
 	margin-right: 74px;
 	margin-bottom: 54px;
 	margin-top: 54px;
+}
+
+.partners__images img:last-child {
+	margin-right: 0;
 }
 
 /* TESTIMONIALS */
@@ -179,22 +183,3 @@
 .testimonial__content {
 	font-family: RobotoL, sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

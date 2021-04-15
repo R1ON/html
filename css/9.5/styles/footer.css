@@ -10,6 +10,10 @@
 	display: flex;
 }
 
+.footer__links > div:last-child {
+	margin-right: 0;
+}
+
 .links {
 	display: flex;
 	flex-direction: column;
@@ -61,15 +65,9 @@
 	margin-right: 24px;
 }
 
-
-
-
-
-
-
-
-
-
+.info__logos a:last-child {
+	margin-right: 0;
+}
 
 
 
