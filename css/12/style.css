@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	height: 1500px;
+}
+
+.container {
+}
+
+.block_1, .block_2, .block_3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	color: white;
+	font-size: 35px;
+}
+
+.block_1 {
+	position: absolute;
+	right: 0;
+	background: #CC0000;
+}
+.block_2 {
+	background: #0033CC;
+}
+.block_3 {
+	background: #669933;
+}
