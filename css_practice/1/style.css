@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-select {
+	position: relative;
+}
+
+.select-options {
+	position: absolute;
+	top: 100%;
+	display: none;
+	width: 200px;
+	background: white;
+	border: 1px solid gray;
+	border-radius: 6px;
+	margin-top: 3px;
+}
+
+.select-button {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	width: 200px;
+	border-radius: 6px;
+	background: white;
+	border: 1px solid gray;
+}
+
+.select-button img {
+	border-radius: 50%;
+	background: lightblue;
+	width: 35px;
+	margin-right: 10px;
+}
+
+.select-button:focus {
+	outline: none;
+	border-color: black;
+}
+
+.select-button:focus + .select-options {
+	display: block;
+}
+
+.select-button::after {
+	content: '▲';
+	color: gray;
+	position: absolute;
+	right: 10px;
+}
+
+.select-button:focus::after {
+	content: '▼';
+	color: gray;
+	position: absolute;
+	right: 10px;
+}
+
+.option {
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+.option:hover {
+	cursor: pointer;
+	background: lightgray;
+}
+
+.option:hover:first-child {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.option:hover:last-child {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.option img {
+	border-radius: 50%;
+	background: lightblue;
+	width: 35px;
+	margin-right: 10px;
+}
+
+.option-active {
+	background: tomato;
+}
+
+.option-active:hover {
+	background: tomato;
+	cursor: default;
+}
