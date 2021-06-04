@@ -2,29 +2,66 @@ body {
 	margin: 0;
 }
 
-.container {
-	width: 500px;
-	height: 500px;
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+	width: 100px;
+	height: 100px;
 	background: red;
-	animation-name: changeBackground;
-	animation-duration: 3s;
-	/*animation-delay: 1s;*/
-	/*animation-iteration-count: infinite;*/
-	/*animation-direction: alternate;*/
-	animation-timing-function: linear;
-	/*animation-fill-mode: forwards;*/
+	margin-top: 20px;
+	animation: 1s infinite move;
 }
-
-@keyframes changeBackground {
-	to {
-		background: green;
-	}
-}
-
 
 /* Порядок:
 	duration | timing-function |
 	delay | iteration-count |
 	direction | fill-mode | name
 */
+
+.container1 {
+	animation-timing-function: linear;
+}
+.container2 {
+	animation-timing-function: ease;
+}
+.container3 {
+	animation-timing-function: ease-in;
+}
+.container4 {
+	animation-timing-function: ease-out;
+}
+.container5 {
+	animation-timing-function: ease-in-out;
+}
+
+/*.container1 {
+	width: 500px;
+	height: 500px;
+	background: red;
+	animation-name: changeBackground;
+	animation-duration: 3s;
+	animation-delay: 1s/
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes changeBackground {
+	to {
+		background: green;
+	}
+}*/
+
+
+@keyframes move {
+	to {
+		margin-left: 500px;
+	}
+}
+
+
+
 

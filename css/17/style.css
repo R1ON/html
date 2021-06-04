@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background: tomato;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.circle {
+	transform: rotate(0) scale(1, 1);
+	transform-origin: center;
+	animation: 2s ease infinite rotate;
+}
+@keyframes rotate {
+	50% {
+		transform: rotate(360deg) scale(1.5, 1.5);
+	}
+
+	100% {
+		transform: rotate(720deg) scale(1, 1);
+	}
+}
+
+
