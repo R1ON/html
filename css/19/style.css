@@ -1,0 +1,141 @@
+
+/*.box-shadow {
+	width: 500px;
+	height: 500px;
+	background: red;
+	margin-top: 50px;
+	margin-left: 50px;
+
+	box-shadow: 17px 18px 6px 1px rgba(34, 60, 80, 0.9);
+}*/
+
+
+/*div {
+	color: green;
+}
+
+div > button {
+	color: inherit;
+}*/
+
+/*div {
+	min-width: 500px;
+	min-height: 500px;
+}*/
+
+
+/*.img_background {
+	width: 500px;
+	height: 500px;
+	background: url('cat.jpeg');
+	background-position: center;
+	background-size: contain;
+}*/
+
+/*.img_cat {
+	height: 500px;
+	width: 500px;
+	background: red;
+}
+
+.img_cat > img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+	object-position: left;
+}*/
+
+
+
+
+
+
+
+
+
+
+.container {
+	display: flex;
+	margin-top: 50px;
+	background: lightgray;
+}
+
+.cat1:hover {
+	filter: blur(5px);
+}
+
+
+
+.cat2:hover {
+	filter: brightness(10%);
+}
+.cat3:hover {
+	filter: brightness(50%);
+}
+.cat4:hover {
+	filter: brightness(200%);
+}
+
+
+
+.cat5:hover {
+	filter: contrast(15%);
+}
+.cat6:hover {
+	filter: contrast(205%);
+}
+
+
+
+.cat7:hover {
+	filter: grayscale(30%);
+}
+.cat8:hover {
+	filter: grayscale(100%);
+}
+
+
+
+.cat9:hover {
+	filter: saturate(20%);
+}
+.cat10:hover {
+	filter: saturate(80%);
+}
+.cat11:hover {
+	filter: saturate(300%);
+}
+
+
+
+.cat12:hover {
+	filter: sepia(20%);
+}
+.cat13:hover {
+	filter: sepia(80%);
+}
+
+
+
+.cat14:hover {
+	filter: invert(20%);
+}
+.cat15:hover {
+	filter: invert(80%);
+}
+.cat16:hover {
+	filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
