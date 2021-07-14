@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+/*.test {
+	width:  80px;
+	background: red;
+	overflow-wrap:  break-word;
+}
+
+.test2 {
+	width:  80px;
+	background: green;
+	word-break:  break-all;
+}
+
+.test3 {
+	width:  80px;
+	background: red;
+	hyphens: auto;
+}
+
+.test4 {
+	width:  100px;
+	background: gray;
+	white-space:  nowrap;
+}*/
+
+.test5 {
+	width: 100px;
+	height: 50px;
+	background: red;
+	white-space:  nowrap;
+	/*overflow: scroll;*/
+	/*overflow-x: scroll;
+	overflow-y: scroll;*/
+	/*text-overflow: ellipsis;*/
+}
+
+.test6 {
+	--header-height: 60px;
+	--footer-height: 100px;
+
+	background: red;
+	width: 100px;
+	height:  calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+.div1, .div2, .div3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.div1 {
+	background: red;
+	z-index: 1;
+}
+
+.div2 {
+	background: green;
+	top: 10px;
+	left:  10px;
+	z-index: 1;
+}
+
+.div3 {
+	background: blue;
+	top: 25px;
+	left:  25px;
+	z-index: 99999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
