@@ -86,6 +86,8 @@ let c = 1;
 
 // console.log('email' in obj);
 
+// 9. Тернарный (a ? b : c)
+
 
 
 
