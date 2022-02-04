@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>JS_17</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	</head>
+	<body>
+
+		<div class="tabs">
+			<button class="tab"
+					data-tab-id="goods">
+				Товары
+			</button>
+
+			<span class="separator">/</span>
+
+			<button class="tab cart-tab"
+					data-tab-id="cart">
+				Корзина
+			</button>
+		</div>
+		
+		<div class="product-items">
+			<div class="product-item">
+	  			<img src="goods/html.png">
+				<div class="product-list">
+			    	<h3>Уроки по HTML</h3>
+			      	<p class="price">₽ 300</p>
+			      	<button class="button">В корзину</button>
+				</div>
+			</div>
+
+			<div class="product-item">
+	  			<img src="goods/css.png">
+				<div class="product-list">
+			    	<h3>Уроки по CSS</h3>
+			      	<p class="price">₽ 150</p>
+			      	<button class="button">В корзину</button>
+				</div>
+			</div>
+
+			<div class="product-item">
+	  			<img src="goods/js.png">
+				<div class="product-list">
+			    	<h3>Уроки по JS</h3>
+			      	<p class="price">₽ 260</p>
+			      	<button class="button">В корзину</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart-items">
+			<div class="cart-item">
+	  			<div class="cart-item-title">Уроки по HTML</div>
+	  			<div class="cart-item-count">3шт.</div>
+	  			<div class="cart-item-price">₽ 150</div>
+			</div>
+
+			<div class="cart-item">
+	  			<div class="cart-item-title">Уроки по CSS</div>
+	  			<div class="cart-item-count">1шт.</div>
+	  			<div class="cart-item-price">₽ 450</div>
+			</div>
+
+			<div class="cart-item">
+	  			<div class="cart-item-title">Уроки по JS</div>
+	  			<div class="cart-item-count">6шт.</div>
+	  			<div class="cart-item-price">₽ 550</div>
+			</div>
+		</div>
+
+		<script src="index.js">
+		</script>
+	</body>
+</html>
