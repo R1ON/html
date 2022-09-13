@@ -51,18 +51,18 @@
 // const myArray = [1,2,3];
 // console.log(myArray.reverse());
 
-const myArray = ['1','2',true,4];
+// const myArray = ['1','2',true,4];
 
-for (let i = 0; i < myArray.length; i++) {
-    const element = myArray[i];
+// for (let i = 0; i < myArray.length; i++) {
+//     const element = myArray[i];
 
-    console.log(element);
-}
+//     console.log(element);
+// }
 
 
-myArray.forEach((element) => {
-    console.log(element);
-});
+// myArray.forEach((element) => {
+//     console.log(element);
+// });
 
 
 
@@ -78,4 +78,5 @@ myArray.forEach((element) => {
 
 // Задача №1 (подсказка в файле help.txt)
 const fromYou = 'lesson,lessons,Для новичков,Для начинающих,Создать сайт,css,css3,Курсы по css';
+// Решение в файле dz.js
 // '#lesson #lessons #для_новичков #для_начинающих #создать_сайт #css #css3 #курсы_по_css';
