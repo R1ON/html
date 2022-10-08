@@ -84,53 +84,53 @@
 // }
 
 
-const data = [{
-    id: 1,
-    title: 'Новость дня',
-    author: 'Alex',
-    likes: 50
-}, {
-    id: 2,
-    title: 'Важная новость',
-    author: 'Anna',
-    likes: 150
-}, {
-    id: 3,
-    title: 'Важная новость #2',
-    author: 'John',
-    likes: 140
-}];
+// const data = [{
+//     id: 1,
+//     title: 'Новость дня',
+//     author: 'Alex',
+//     likes: 50
+// }, {
+//     id: 2,
+//     title: 'Важная новость',
+//     author: 'Anna',
+//     likes: 150
+// }, {
+//     id: 3,
+//     title: 'Важная новость #2',
+//     author: 'John',
+//     likes: 140
+// }];
 
-const filtered = data.filter((elem) => {
-    if (elem.likes > 100) {
-        return true;
-    }
+// const filtered = data.filter((elem) => {
+//     if (elem.likes > 100) {
+//         return true;
+//     }
 
-    // return elem.likes > 100;
-    // return elem.likes > 100 ? true : false;
-});
+//     // return elem.likes > 100;
+//     // return elem.likes > 100 ? true : false;
+// });
 
-const data2 = filtered.map((elem) => {
-    return {
-        id: elem.id,
-        title: elem.title,
-    };
-});
+// const data2 = filtered.map((elem) => {
+//     return {
+//         id: elem.id,
+//         title: elem.title,
+//     };
+// });
 
-console.log(filtered);
+// console.log(filtered);
 
-const data3 = filtered.map((elem) => {
-    return elem.author;
-});
+// const data3 = filtered.map((elem) => {
+//     return elem.author;
+// });
 
-const bestAuthor = data.find((elem) => {
-    if (elem.likes >= 150) {
-        return true;
-    }
-})
+// const bestAuthor = data.find((elem) => {
+//     if (elem.likes >= 150) {
+//         return true;
+//     }
+// })
 
 
-console.log(bestAuthor);
+// console.log(bestAuthor);
 
 // console.log(data2);
 
