@@ -115,18 +115,18 @@
 
 
 
-const goodProducts = ['Салат', 'Вода', 'Шоколад', 'Булка'];
+// const goodProducts = ['Салат', 'Вода', 'Шоколад', 'Булка'];
 
-const test3 = [{
-    title: 'Сникерс',
-    composition: ['Шоколад', 'Сахар', 'Нуга', 'Что-то еще'],
-}, {
-    title: 'Бургер',
-    composition: ['Булка', 'Котлета', 'Салат', 'Другие овощи'],
-}, {
-    title: 'Липтон',
-    composition: ['Вода', 'Сахар', 'Сок лимона', 'Щепотка магии'],
-}];
+// const test3 = [{
+//     title: 'Сникерс',
+//     composition: ['Шоколад', 'Сахар', 'Нуга', 'Что-то еще'],
+// }, {
+//     title: 'Бургер',
+//     composition: ['Булка', 'Котлета', 'Салат', 'Другие овощи'],
+// }, {
+//     title: 'Липтон',
+//     composition: ['Вода', 'Сахар', 'Сок лимона', 'Щепотка магии'],
+// }];
 
 // const result = [];
 
@@ -147,33 +147,33 @@ const test3 = [{
 //     });
 // });
 
-const result = test3.reduce((acc, product) => {
+// const result = test3.reduce((acc, product) => {
 
-    const composition = product.composition.reduce((acc2, item) => {
-        // const good = goodProducts.some((goodP) => {
-        //     if (goodP === item) {
-        //         return true;
-        //     }
-        // })
+//     const composition = product.composition.reduce((acc2, item) => {
+//         // const good = goodProducts.some((goodP) => {
+//         //     if (goodP === item) {
+//         //         return true;
+//         //     }
+//         // })
     
-        acc2.push({
-            name: item,
-            good: goodProducts.includes(item),
-        });
+//         acc2.push({
+//             name: item,
+//             good: goodProducts.includes(item),
+//         });
     
-        return acc2;
-    }, []);
+//         return acc2;
+//     }, []);
 
-    acc.push({
-        title: product.title,
-        // composition: composition,
-        composition,
-    })
+//     acc.push({
+//         title: product.title,
+//         // composition: composition,
+//         composition,
+//     })
 
-    return acc;
-}, []);
+//     return acc;
+// }, []);
 
-console.log(result);
+// console.log(result);
 
 
 // const test3 = [{
@@ -225,25 +225,6 @@ console.log(result);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const countries = [{
     country: "Гана",
     weather: 19,
@@ -280,3 +261,13 @@ const countries = [{
 // Задание 2 - найти самую жаркую и холодную страну
 // Вывод: "Самая холодная страна - Гренландия"
 // Вывод: "Самая жаркая страна - Мали"
+
+
+
+
+
+
+
+
+
+
